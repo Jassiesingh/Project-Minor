@@ -1,0 +1,21 @@
+.banner {
+    background-image: linear-gradient(to right, #635dc0, #3027ae);
+    height: 70vmin;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.productCard:hover {
+    box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
+    transform: translateY(-0.5vmax);
+    transition-duration: 1s;
+
+}
+
+.productCard>div {
+    align-items: center;
+}
